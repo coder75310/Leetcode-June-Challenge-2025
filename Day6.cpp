@@ -10,7 +10,6 @@ Given the base k and the number n, return the sum of the n smallest k-mirror num
 
 class Solution {
 public:
-    
     bool isPalindrome(string baseK) {
         int i = 0;
         int j = baseK.length()-1;
