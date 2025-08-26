@@ -5,8 +5,7 @@ nums1[i] * nums2[j] where 0 <= i < nums1.length and 0 <= j < nums2.length. */
 
 class Solution {
 public:
-    long long kthSmallestProduct(vector<int>& nums1, vector<int>& nums2,
-                                 long long k) {
+    long long kthSmallestProduct(vector<int>& nums1, vector<int>& nums2, long long k) {
         int n1 = nums1.size(), n2 = nums2.size();
         int pos1 = 0, pos2 = 0;
         while (pos1 < n1 && nums1[pos1] < 0) {
